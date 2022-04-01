@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rosarivo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="cabecalho">
+            <img src="./assets/img/stationery.png" alt="">
+            <h2>Calcular Média</h2>
+        </section>
+
+    </header>
+    <main>
+
+        <section class="cadastro__notas">
+            <div class="inserir__informacao">
+                <label>Matéria:</label>
+                <input type="text" id="materia">
+                <span id="matErro"></span>
+            </div>
+            <div class="inserir__informacao">
+                <label>Nome do Aluno:</label>
+                <input type="text" id="nomeAluno">
+                <span id="nomeErro"></span>
+            </div>
+
+            <div class="inserir__semestre">
+                <label> Notas:</label><br>
+
+                <input type="number" value="" id="notaUm" placeholder="1ª Nota">
+
+                <input type="number" id="notaDois" placeholder="2ª Nota">
+
+                <input type="number" id="notaTres" placeholder="3ª Nota">
+
+                <input type="number" id="notaQuatro" placeholder="4ª Nota">
+                <span id="msgErro"></span>
+            </div>
+            <div class="Concluir__cadastro">
+                <button onclick="" id="send">Calcular</button>
+            </div>
+            <span id="resultado"></span>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
